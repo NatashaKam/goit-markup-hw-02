@@ -78,7 +78,7 @@ body {
  }
 
  .contact {
-    color: var(--primary-text-color);
+    color: var(--secondary-text-color);
  }
 
 .contact:hover,
