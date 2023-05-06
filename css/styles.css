@@ -45,7 +45,6 @@ body {
 
 .link {
     text-decoration: none;
-    color: var(--primary-text-color);
 }
 
 .button {
@@ -66,6 +65,7 @@ body {
 
 .menu-link {
     font-weight: 500;
+    color: var(--primary-text-color);
 }
 
 .menu-link:hover,
@@ -75,6 +75,10 @@ body {
 
 .address {
     font-style: normal;
+ }
+
+ .contact {
+    color: var(--primary-text-color);
  }
 
 .contact:hover,
