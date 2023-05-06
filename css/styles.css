@@ -16,7 +16,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     background: var(--main-background);
-    color: var(--primary-text-color);
+    color: var(--secondary-text-color);
 }
 
 /* COMPONENTS */
@@ -45,11 +45,15 @@ body {
 
 .link {
     text-decoration: none;
+    color: var(--primary-text-color);
 }
 
 .button {
     font-family: inherit;
     cursor: pointer;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .button:hover,
@@ -62,7 +66,6 @@ body {
 
 .menu-link {
     font-weight: 500;
-    color: inherit;
 }
 
 .current {
@@ -74,9 +77,8 @@ body {
     color: var(--accent-color);
 }
 
-.contact {
+.address {
     font-style: normal;
-    color: var(--secondary-text-color);
  }
 
 .contact:hover,
@@ -94,12 +96,13 @@ body {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
     color: var(--third-text-color);
 }
 
 .order-btn {
     font-weight: 500;
-    letter-spacing: 0.04em;
     background: var(--brand-color);
     color: var(--third-text-color);
 }
@@ -110,6 +113,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
 
@@ -121,6 +125,9 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
     color: var(--primary-text-color);
 }
 
